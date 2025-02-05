@@ -1,0 +1,152 @@
+/* Styling for header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for navigation */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Remove list styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for navigation links */
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Styling for main content */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Styling for the book list section */
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Styling for individual book containers */
+.book {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 220px;
+    transition: transform 0.3s;
+}
+
+/* Hover effect */
+.book:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for book images */
+.book img {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+/* Styling for book titles */
+.book h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styling for author and price */
+.book p {
+    font-size: 16px;
+    color: #555;
+}
+/* Styling for the contact form section */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Styling for the form container */
+.contact-form form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for labels */
+.contact-form label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Styling for input fields */
+.contact-form input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Styling for submit button */
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+/* Button hover effect */
+.contact-form button:hover {
+    background-color: #555;
+}
+
