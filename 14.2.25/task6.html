@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Finding your age</h2>
+
+<button onclick="myFunction()">Enter your age</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let age = prompt("Please enter your age:", "21");
+  if (age == null || age == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "You are " + age + " years old.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

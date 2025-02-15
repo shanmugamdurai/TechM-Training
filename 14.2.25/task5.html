@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Will you go to movie today ?</h2>
+
+
+<button onclick="pleaseConfirm()">Press ok to confirm</button>
+
+<p id="para1"></p>
+
+<script>
+function pleaseConfirm() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You are going to a movie today";
+  } else {
+    txt = "You are not going to a movie today";
+  }
+  document.getElementById("para1").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
