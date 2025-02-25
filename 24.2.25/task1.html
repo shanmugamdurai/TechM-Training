@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+        crossorigin
+        src="https://unpkg.com/react@18/umd/react.development.js"
+      ></script>
+      <script
+        crossorigin
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      ></script>
+      <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root1"></div>
+        <div id="root2"></div>
+        <div id ="root3"></div>
+        <script type="text/jsx">
+            let rt1 = document.getElementById("root1");
+            ReactDOM.render(<h2>h2 tag using React Dom</h2>,rt1);
+        </script>
+        <script type="text/jsx">
+            let rt2 = document.getElementById("root2");
+            ReactDOM.render(<h4>h4 tag using React Dom</h4>,rt2);
+        </script>
+        <script type="text/jsx">
+            let rt3 = document.getElementById("root3");
+            ReactDOM.render(<p>This is a Paragraph using React Dom</p>,rt3);
+        </script>
+    </body>
+</html>
