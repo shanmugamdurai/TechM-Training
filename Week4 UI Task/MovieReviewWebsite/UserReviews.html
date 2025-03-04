@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Movie Review</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container-fluid {
+            padding: 0;
+        }
+        .main-content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .form-container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #17a2b8;
+            font-weight: bold;
+            text-align: center;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .form-control {
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .btn-info {
+            background-color: #17a2b8;
+            border: none;
+            font-size: 1.1rem;
+            padding: 10px;
+            border-radius: 10px;
+            transition: 0.3s ease-in-out;
+        }
+        .btn-info:hover {
+            background-color: #138496;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #17a2b8;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Movie Review</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                        <a class="nav-link" href="MovieDetails.html">Movie Details</a>
+                        <a class="nav-link" href="UserReviews.html">User Review</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Centered Form -->
+    <div class="main-content">
+        <div class="form-container">
+            <form class="row g-3">
+                <h2>Give Your Opinion</h2>
+                <div class="mb-3">
+                    <label for="userId" class="form-label">User ID</label>
+                    <input type="text" class="form-control" id="userId" placeholder="Enter your user ID">
+                </div>
+                <div class="mb-3">
+                    <label for="movieName" class="form-label">Movie Name</label>
+                    <input type="text" class="form-control" id="movieName" placeholder="Enter the movie name">
+                </div>
+                <div class="mb-3">
+                    <label for="review" class="form-label">Review</label>
+                    <textarea class="form-control" id="review" rows="4" placeholder="Write your review here"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-info w-100">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Movie Review. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
