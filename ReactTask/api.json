@@ -1,0 +1,28 @@
+{
+  "appointments": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "date": "2025-03-15",
+      "time": "10:00 AM"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "date": "2025-03-16",
+      "time": "02:00 PM"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "date": "2025-03-17",
+      "time": "11:30 AM"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "date": "2025-03-18",
+      "time": "04:00 PM"
+    }
+  ]
+}
