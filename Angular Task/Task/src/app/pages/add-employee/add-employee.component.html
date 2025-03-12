@@ -1,0 +1,14 @@
+<h2>Add Employee</h2>
+<form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
+  <label>Name:</label>
+  <input type="text" name="name" ngModel required /><br />
+
+  <label>Position:</label>
+  <input type="text" name="position" ngModel required /><br />
+
+  <label>Salary:</label>
+  <input type="number" name="salary" ngModel required /><br />
+
+  <button type="submit" [disabled]="employeeForm.invalid">Add Employee</button>
+</form>
+

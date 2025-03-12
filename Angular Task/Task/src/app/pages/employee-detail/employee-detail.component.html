@@ -1,0 +1,8 @@
+<h2>Employee Details</h2>
+<p *ngIf="employee">
+  <strong>Name:</strong> {{ employee.name | titlecase }}<br />
+  <strong>Position:</strong> {{ employee.position }}<br />
+  <strong>Salary:</strong> {{ employee.salary | currency }}
+</p>
+<a routerLink="/employees">Back to Employees</a>
+

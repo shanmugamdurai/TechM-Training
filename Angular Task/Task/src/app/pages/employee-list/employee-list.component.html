@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>Employee List</h2>
+    <div class="employee-grid">
+      <div *ngFor="let employee of employees" class="employee-card">
+        <h3>{{ employee.name }}</h3>
+        <p>{{ employee.position }}</p>
+        <a [routerLink]="['/employee', employee.id]" class="view-btn">View Details</a>
+      </div>
+    </div>
+  </div>
+  
+
