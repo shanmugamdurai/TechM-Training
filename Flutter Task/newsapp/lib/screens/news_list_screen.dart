@@ -27,7 +27,7 @@ class _CategoryNewsScreenState extends State<CategoryNewsScreen> {
   }
 
   void _fetchNews() async {
-    final apiKey = "7d575c740724dde57a9f73e668d0ff1d"; // Replace with your GNews API Key
+    final apiKey = "*********"; 
     final url =
         "https://gnews.io/api/v4/top-headlines?category=${widget.category}&lang=en&token=$apiKey";
 
