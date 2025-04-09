@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.myTraining.core.handlers.ResourceChangeHandler" immediate="true">
+  <property name="resource.paths" type="String" value="/content"/>
+  <property name="resource.change.types" type="String">ADDED
+REMOVED
+CHANGED</property>
+  <service>
+    <provide interface="org.apache.sling.api.resource.observation.ResourceChangeListener"/>
+  </service>
+  <implementation class="com.myTraining.core.handlers.ResourceChangeHandler"/>
+</scr:component>
